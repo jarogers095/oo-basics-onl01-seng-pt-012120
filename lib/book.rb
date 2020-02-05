@@ -3,10 +3,10 @@ class Book
     @title = book_title
   end
   
-  attr_accessor(:author, :pages, :genre)
+  attr_accessor(:title, :author, :page_count, :genre)
   
   def turn_page()
-    puts "The book has magically turned its own page!"
+    puts "Flipping the page...wow, you read fast!"
   end
 end
 
