@@ -4,3 +4,7 @@ class Shoe
   end
   
   attr_accessor(:color, :size, :material, :condition)
+  
+  def cobble()
+    puts "The shoe has been repaired"
+    @condition = "new"
